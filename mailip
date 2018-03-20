@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ip=$(hostname -I)
+
+echo "$ip" | mail -s "RPi IP Address" your_email@gmail.com
